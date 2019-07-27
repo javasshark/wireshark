@@ -73,6 +73,7 @@ public class MainView extends JFrame implements Runnable {
 		file.addSeparator();
 		file.add(save);
 		open.addActionListener(new MenuActionListener());
+		open.addActionListener(new OpenActionListener());
 		close.addActionListener(new MenuActionListener());
 		save.addActionListener(new MenuActionListener());
 
